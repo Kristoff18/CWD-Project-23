@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>ArchRise</title>
+
+    <link rel="icon" href="images/Main-Logo.png">
+</head>
+<body class="home-page">
+    <!-- Navbar logo -->
+    <nav class="transparent z-depth-3">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo cyan-text text-accent-4">
+                <img class="navbar-logo" src="images/Main-Logo-removebg.png" alt="">
+            <!-- Sidenav Structure -->
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                <i class="material-icons cyan-text text-accent-4">menu</i>
+            </a>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                    <div class="background">
+                        <img src="images/sidenav-background.jpg">
+                    </div>
+                    <!-- Sidenav company logo, name and email -->
+                    <a href="#user"><img class="circle" src="images/Main-Logo-removebg.png"></a>
+                    <a href="#name"><span class="white-text name">ArchRise Architecture</span></a>
+                    <a href="#email"><span class="white-text email">archrise0123@gmail.com</span></a>
+                    </div>
+                </li>
+                <!-- Sidenav Main Header -->
+                <li class="active">
+                    <a class="waves-effect disabled href="#!">
+                        <i class="material-icons">home</i>Home</a>
+                </li>
+                <!-- Collapsible applied-->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header waves-effect">
+                                <i class="material-icons">work</i>Services<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a class="waves-effect" href="services.html#architectural-design">Architectural Design</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="services.html#sustainable-design">Sustainable Design</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="services.html#interior-design">Interior Design</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="services.html#3d-visualization-and-animation">3D Visualization and Animation</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Collapsible applied -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header waves-effect">
+                                <i class="material-icons">assignment</i>Projects<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a class="waves-effect" href="projects.html#completed-proj">Completed</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="projects.html#ongoing-proj">Ongoing</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="projects.html#planning-proj">Planning</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="waves-effect" href="about.html">
+                        <i class="material-icons">group</i>About</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="contact.html">
+                        <i class="material-icons">contact_phone</i>Contact Us</a>
+                </li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <!-- Sidenav Sub Header -->
+                <li>
+                    <a class="subheader">Follow us</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://www.facebook.com/" target="_blank">
+                        <i class="material-icons">facebook</i>Facebook</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://www.instagram.com/" target="_blank.">
+                        <i class="material-icons">camera_alt</i>Instagram</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://www.youtube.com/" target="_blank">
+                        <i class="material-icons">ondemand_video</i>Youtube</a>
+                </li>
+            </ul>
+            <!-- Navbar Structure -->
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a class="item home disabled" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="item services" href="services.html">Services</a>
+                </li>
+                <!-- Dropdown applied -->
+                <li>
+                    <a class="item projects dropdown-trigger" href="#" data-target="dropdown1">Projects
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="item about" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="item contact-us" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <!-- Dropdown Structure for Projects -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a href="projects.html#completed-proj">Completed</a>
+                </li>
+                <li>
+                    <a href="projects.html#ongoing-proj">Ongoing</a>
+                </li>
+                <li>
+                    <a href="projects.html#planning-proj">Planning</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="container hero">
+        <div class="row">
+            <div class="innovative col s12 l4">Innovative.</div>
+            <div class="futuristic col s12 l4">Futuristic.</div>
+            <div class="modern col s12 l4">Modernized.</div>
+            <div class="hero-details col s12">"Elevating Dreams, Building Realities"</div>
+            <div class="col s12">
+                <a href="projects.html" class="button pulse">Our Projects</a>
+            </div>
+        </div>    
+    </div>    
+
+
+
+
+
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // Sidenav Init
+            $('.sidenav').sidenav({
+                inDuration: 500,
+                outDuration: 1000
+            });
+            // Dropdown Init
+            $('.dropdown-trigger').dropdown();
+            // Sidenav Collapsible Init
+            $('.collapsible').collapsible();
+        });
+    </script>
+
+
+</body>
+</html>

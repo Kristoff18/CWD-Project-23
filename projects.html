@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projects</title>
+
+    <link rel="icon" href="images/Main-Logo.png">
+</head>
+<body>
+    <!-- Navbar logo -->
+    <nav class="transparent z-depth-3">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo cyan-text text-accent-4">
+                <img class="navbar-logo" src="images/Main-Logo-removebg.png" alt="">
+            <!-- Sidenav Structure -->
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                <i class="material-icons cyan-text text-accent-4">menu</i>
+            </a>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                    <div class="background">
+                        <img src="images/sidenav-background.jpg">
+                    </div>
+                    <!-- Sidenav company logo, name and email -->
+                    <a href="#user"><img class="circle" src="images/Main-Logo-removebg.png"></a>
+                    <a href="#name"><span class="white-text name">ArchRise Architecture</span></a>
+                    <a href="#email"><span class="white-text email">archrise0123@gmail.com</span></a>
+                    </div>
+                </li>
+                <!-- Sidenav Main Header -->
+                <li>
+                    <a class="waves-effect" href="index.html">
+                        <i class="material-icons">home</i>Home</a>
+                </li>
+                <!-- Collapsible applied-->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="active">
+                            <a class="collapsible-header waves-effect">
+                                <i class="material-icons">work</i>Services<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a class="waves-effect" href="services.html#architectural-design">Architectural Design</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="services.html#sustainable-design">Sustainable Design</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="services.html#interior-design">Interior Design</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="services.html#3d-visualization-and-animation">3D Visualization and Animation</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Collapsible applied -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header waves-effect">
+                                <i class="material-icons">assignment</i>Projects<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a class="waves-effect" href="#completed-proj">Completed</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="#ongoing-proj">Ongoing</a>
+                                </li>
+                                <li>
+                                    <a class="waves-effect" href="#planning-proj">Planning</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="waves-effect" href="about.html">
+                        <i class="material-icons">group</i>About</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="contact.html">
+                        <i class="material-icons">contact_phone</i>Contact Us</a>
+                </li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <!-- Sidenav Sub Header -->
+                <li>
+                    <a class="subheader">Follow us</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://www.facebook.com/" target="_blank">
+                        <i class="material-icons">facebook</i>Facebook</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://www.instagram.com/" target="_blank.">
+                        <i class="material-icons">camera_alt</i>Instagram</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://www.youtube.com/" target="_blank">
+                        <i class="material-icons">ondemand_video</i>Youtube</a>
+                </li>
+            </ul>
+            <!-- Navbar Structure -->
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a class="item home" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="item services" href="services.html">Services</a>
+                </li>
+                <!-- Dropdown applied -->
+                <li class="active">
+                    <a class="item projects dropdown-trigger" href="#" data-target="dropdown1">Projects
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="item about" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="item contact-us" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <!-- Dropdown Structure for Projects -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a href="#completed-proj">Completed</a>
+                </li>
+                <li>
+                    <a href="#ongoing-proj">Ongoing</a>
+                </li>
+                <li>
+                    <a href="#planning-proj">Planning</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Projects Section -->
+    <br>
+    <h1 class="cyan-text text-accent-4 center">Our Projects</h1>
+    <br>
+    <!-- Completed Projects -->
+    <h3 id="completed-proj" class="cyan-text text-accent-4 center">Completed Projects</h3>
+    <br>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/completed-1.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Beijing, China</h2>
+                <h4 class="heading">March 2019 - January 2021</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/completed-2.png">
+                <div class="caption right-align">
+                <h2 class="heading">Tokyo, Japan</h2>
+                <h4 class="heading">December 2021 - February 2023</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/completed-3.jpg">
+                <div class="caption left-align">
+                <h2 class="heading">Florida, USA</h2>
+                <h4 class="heading">January 2020 - October 2022</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/completed-4.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Makati, Philippines</h2>
+                <h4 class="heading">July 2021 - April 2023</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br><br><br>
+    <div class="divider"></div>
+    <br>
+    <!-- Ongoing Projects -->
+    <h3 id="ongoing-proj" class="cyan-text text-accent-4 center">Ongoing Projects</h3>
+    <br>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/ongoing-1.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Minnesota, USA</h2>
+                <h4 class="heading">February 2023 - October 2024</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/ongoing-2.jpg">
+                <div class="caption right-align">
+                <h2 class="heading">Virgin Islands, British</h2>
+                <h4 class="heading">January 2023 - December 2024</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/ongoing-3.jpg">
+                <div class="caption left-align">
+                <h2 class="heading">Moscow, Russia</h2>
+                <h4 class="heading">March 2023 - December 2025</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/ongoing-4.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Pasay, Philippines</h2>
+                <h4 class="heading">December 2022 - July 2024</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br><br><br>
+    <div class="divider"></div>
+    <br>
+    <!-- Planning Projects -->
+    <h3 id="planning-proj" class="cyan-text text-accent-4 center">Planning Projects</h3>
+    <br>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/planning-1.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">California, USA</h2>
+                <h4 class="heading">Construction Phase: 24 - 36 months</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/planning-2.jpg">
+                <div class="caption right-align">
+                <h2 class="heading">Rio de Jeneiro, Brazil</h2>
+                <h4 class="heading">Construction Phase: 15 - 20 months</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/planning-3.jpeg">
+                <div class="caption left-align">
+                <h2 class="heading">Cebu, Philippines</h2>
+                <h4 class="heading">Construction Phase: 30 - 42 months</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/planning-4.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Beijing, China</h2>
+                <h4 class="heading">Construction Phase: 18 - 24 months</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/planning-5.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Ilocos Norte, Philippines</h2>
+                <h4 class="heading">Construction Phase: 20 - 28 months</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/planning-6.jpg">
+                <div class="caption center-align">
+                <h2 class="heading">Nevada, USA</h2>
+                <h4 class="heading">Construction Phase: 14 - 20 months</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div style="height: 100px;"></div>
+
+
+
+
+
+
+
+
+      <!-- JQuery CDN -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <script>
+        $(document).ready(function(){
+            // Sidenav Init
+            $('.sidenav').sidenav({
+                inDuration: 500,
+                outDuration: 1000
+            });
+            // Dropdown Init
+            $('.dropdown-trigger').dropdown();
+            // Sidenav Collapsible Init
+            $('.collapsible').collapsible();
+            // Slider Init
+            $('.slider').slider({
+                height: 650,
+                duration: 1000,
+                interval: 4000
+            });
+        });
+    </script>
+</body>
+</html>
